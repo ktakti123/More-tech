@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+p{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  white-space: nowrap;
+}
+.navbox{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px 0 20px;
+  width: 100vw;
+  height: 90px;
+  background-color:rgb(234 234 234);
+}
+.navboxinner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:1600px;
+  height: 100%;
+}
+.logo{
+width: 230px;
+height: 50px;
+}
+.navlist{
+  width: 700px;
+  height: 100%;
+}
+.contactbox{
+  background-color:  #002c7d;
+  width: 250px;
+  height: 60px;
+  box-shadow: 0px 11px 21.25px 3.75px rgb(194 191 255 / 65%) !important;
+}
+.dashboard{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(133, 139, 146);
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 200px;
+}
+.dashboardinner{
+  padding-right: 100px;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 100px;
+  width:1600px;
+  height: 100%;
+}
+.dashboardtextbox{
+width: 400px;
+height: 300px;
+background-color:  #002c7d;
+display: inline-block;
+
+}
+.dashboardimage{
+width: 700px;
+  height: 500px;
+}
